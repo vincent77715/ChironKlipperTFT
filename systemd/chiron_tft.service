@@ -1,0 +1,14 @@
+[Unit]
+Description=Chiron TFT Bridge
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/ChironKlipperTFT
+ExecStart=/usr/bin/python3 /home/pi/ChironKlipperTFT/src/main.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
