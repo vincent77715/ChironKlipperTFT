@@ -1,0 +1,20 @@
+serial:
+  port: /dev/serial0
+  baudrate: 115200
+
+moonraker:
+  url: ws://localhost:7125/websocket
+
+heartbeat:
+  interval: 0.25
+
+temperatures:
+  interval: 0.5
+
+progress:
+  interval: 1.0
+
+macros:
+  mesh: BED_MESH_CALIBRATE
+  clean_nozzle: CLEAN_NOZZLE
+  filament_load: LOAD_FILAMENT
