@@ -1,0 +1,10 @@
+
+---
+
+# requirements.txt
+
+```text
+pyserial
+websockets
+orjson
+PyYAML
