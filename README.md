@@ -34,6 +34,6 @@ Pi GND -> TFT GND
 ## Installation
 
 ```bash
-git clone https://github.com/YOURNAME/ChironKlipperTFT.git
+git clone https://github.com/vincent77715/ChironKlipperTFT.git
 cd ChironKlipperTFT
 ./install.sh
