@@ -1,0 +1,20 @@
+class TFTCommand:
+    GET_STATUS = 0x01
+    GET_TEMPERATURES = 0x02
+
+    HOME_ALL = 0x10
+    MOVE_X = 0x11
+    MOVE_Y = 0x12
+    MOVE_Z = 0x13
+
+    SET_HOTEND_TEMP = 0x20
+    SET_BED_TEMP = 0x21
+
+    PRINT_START = 0x30
+    PRINT_PAUSE = 0x31
+    PRINT_RESUME = 0x32
+    PRINT_STOP = 0x33
+
+    LIST_FILES = 0x40
+
+    LEVELING = 0x50
